@@ -1,0 +1,43 @@
+form {
+    background: #262626;
+    text-align: center;
+    width: 94%;
+    margin: 2%;
+    border: 10pt solid #000040;
+}
+
+form caption {
+    font-size: 150%;
+}
+
+form td, form th {
+    border: 1pt solid #000040;
+}
+
+
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form #tutoriale,
+form #sposob_zaplaty {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
