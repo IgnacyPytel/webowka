@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8" />
-    <meta
+        <meta charset="UTF-8" />
+        <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0" />
-    <title>Szybki kurs HTML</title>
-    <link
+        <title>Szybki kurs HTML</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="JS/slide.js"></script>
+        <script src="JS/lightbox.js"></script>
+        <link 
+                rel="stylesheet" 
+                href="CSS/slide.css" 
+                type="text/css" />
+        <link 
+                rel="stylesheet" 
+                href="CSS/lightbox.css" /> 
+
+                
+        <link
             rel="stylesheet"
             href="CSS/style.css"
             type="text/css" />
+            
+
+        <div id="content">
+                <div id="slideshow">
+                        <img 
+                                src="Images/zdjecia/obraz1.JPG" 
+                                alt="image1" 
+                                class="active" />
+                        <img 
+                                src="Images/zdjecia/obraz2.JPG" 
+                                alt="image2" />
+                        <img 
+                                src="Images/zdjecia/obraz3.JPG" 
+                                alt="image3" />
+                </div>
+        </div> 
 </head>
 <body>
 <div id="kontener">
@@ -35,65 +64,101 @@
                 <a
                         href="Images/zdjecia/obraz1.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 1"
                 ><img
                         src="Images/miniaturki/obraz1.JPG"
                         alt="zdjecia1"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 1"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz2.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 2"
                 ><img
                         src="Images/miniaturki/obraz2.JPG"
                         alt="zdjecia2"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 2"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz3.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 3"
                 ><img
                         src="Images/miniaturki/obraz3.JPG"
                         alt="zdjecia3"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 3"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz4.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 4"
                 ><img
                         src="Images/miniaturki/obraz4.JPG"
                         alt="zdjecia4"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 4"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz5.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 5"
                 ><img
                         src="Images/miniaturki/obraz5.JPG"
                         alt="zdjecia5"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 5"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz6.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 6"
                 ><img
                         src="Images/miniaturki/obraz6.JPG"
                         alt="zdjecia6"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 6"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz7.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 7"
                 ><img
                         src="Images/miniaturki/obraz7.JPG"
                         alt="zdjecia7"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 7"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz8.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 8"
                 ><img
                         src="Images/miniaturki/obraz8.JPG"
                         alt="zdjecia8"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 8"
                 /></a>
                 <a
                         href="Images/zdjecia/obraz9.JPG"
                         target="_blank"
+                        data-lightbox="galeria"
+                        data-title="Obraz 9"
                 ><img
                         src="Images/miniaturki/obraz9.JPG"
                         alt="zdjecia9"
+                        data-lightbox="galeria"
+                        data-title="Miniaturka 9"
                 /></a>
             </div>
         </main>
